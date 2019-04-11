@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>urlApplication</title>
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+<style>
+	body{	
+		
+		height: 1300px;
+		width: 1300px;
+		text-align: center;
+		margin: 0;
+	}
+	
+	.container{
+		
+		background-color: #BB8FCE;
+		font-family: 'Dosis', sans-serif;
+		width: 300px;
+		height: 400px;
+		position: relative;
+		margin: 0 auto;
+		overflow: hidden;
+		display: block;
+		
+		
+	}
+
+</style>
+</head>
+<body>
+	<div class = "container">
+		<form action = "FirstServlet" method = "post">
+			Username: <input type = "text" name = "user"/>
+			<br>
+			Password: <input type = "password" name = "pwd"/>
+			<br>
+			<input type = "submit" value = "login"/>
+		</form>
+	</div>
+</body>
+</html>

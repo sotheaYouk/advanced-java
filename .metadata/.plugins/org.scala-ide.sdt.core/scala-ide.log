@@ -1,0 +1,25 @@
+2018-12-26 11:26:55,259 ERROR [Initializing Servers view] - System.err - Exception in thread "Initializing Servers view"
+2018-12-26 11:26:55,260 ERROR [Initializing Servers view] - System.err - java.lang.NullPointerException
+2018-12-26 11:26:55,260 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.core.internal.ServerTypeProxy.<init>(ServerTypeProxy.java:46)
+2018-12-26 11:26:55,260 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.core.ServerCore.createProxyServers(ServerCore.java:329)
+2018-12-26 11:26:55,260 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.core.ServerCore.loadDAServerTypes(ServerCore.java:300)
+2018-12-26 11:26:55,260 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.core.ServerCore.getDownloadableServers(ServerCore.java:167)
+2018-12-26 11:26:55,261 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.ui.internal.viewers.ServerTypeTreeContentProvider.deferredAdapterInitialize(ServerTypeTreeContentProvider.java:147)
+2018-12-26 11:26:55,261 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.ui.internal.viewers.AbstractTreeContentProvider$1.run(AbstractTreeContentProvider.java:57)
+2018-12-26 11:28:20,314 ERROR [Worker-116] - System.err - Dec 26, 2018 11:28:20 AM org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.pramati.com:443: The target server failed to respond
+2018-12-26 11:28:20,315 ERROR [Worker-116] - System.err - Dec 26, 2018 11:28:20 AM org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: Retrying request to {s}->https://www.pramati.com:443
+2019-01-11 12:16:28,329 ERROR [Initializing Servers view] - System.err - Exception in thread "Initializing Servers view"
+2019-01-11 12:16:28,398 ERROR [Initializing Servers view] - System.err - java.util.ConcurrentModificationException
+2019-01-11 12:16:28,398 ERROR [Initializing Servers view] - System.err - at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+2019-01-11 12:16:28,398 ERROR [Initializing Servers view] - System.err - at java.util.ArrayList$Itr.next(Unknown Source)
+2019-01-11 12:16:28,398 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.core.ServerCore.createProxyServers(ServerCore.java:329)
+2019-01-11 12:16:28,398 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.core.ServerCore.loadDAServerTypes(ServerCore.java:300)
+2019-01-11 12:16:28,398 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.core.ServerCore.getDownloadableServers(ServerCore.java:167)
+2019-01-11 12:16:28,398 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.ui.internal.viewers.ServerTypeTreeContentProvider.deferredAdapterInitialize(ServerTypeTreeContentProvider.java:147)
+2019-01-11 12:16:28,398 ERROR [Initializing Servers view] - System.err - at org.eclipse.wst.server.ui.internal.viewers.AbstractTreeContentProvider$1.run(AbstractTreeContentProvider.java:57)
+2019-01-15 22:25:20,127 ERROR [ModalContext] - System.err - Jan 15, 2019 10:25:20 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://marketplace.eclipse.org:80: The target server failed to respond
+2019-01-15 22:25:20,138 ERROR [ModalContext] - System.err - Jan 15, 2019 10:25:20 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://marketplace.eclipse.org:80

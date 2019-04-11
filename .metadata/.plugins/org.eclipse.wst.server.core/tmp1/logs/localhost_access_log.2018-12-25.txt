@@ -1,0 +1,12 @@
+127.0.0.1 - - [25/Dec/2018:11:38:41 +0700] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [25/Dec/2018:11:43:30 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:11:43:31 +0700] "GET /CookiesApplication/index.html HTTP/1.1" 200 282
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:11:47:50 +0700] "POST /CookiesApplication/FirstServlet HTTP/1.1" 200 38
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:11:48:28 +0700] "GET /CookiesApplication/FirstServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:11:48:34 +0700] "GET /CookiesApplication HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:11:48:34 +0700] "GET /CookiesApplication/ HTTP/1.1" 200 282
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:11:50:57 +0700] "GET /CookiesApplication/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:11:50:59 +0700] "POST /CookiesApplication/FirstServlet HTTP/1.1" 200 38
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:12:09:58 +0700] "GET /CookiesApplication/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:12:10:04 +0700] "POST /CookiesApplication/FirstServlet HTTP/1.1" 200 38
+0:0:0:0:0:0:0:1 - - [25/Dec/2018:12:10:06 +0700] "GET /CookiesApplication/SecondServlet HTTP/1.1" 200 84
